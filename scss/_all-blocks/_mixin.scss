@@ -1,0 +1,17 @@
+@mixin get_btn($boac_1:$color , $color_2:#fff) {
+    padding: 14px 39px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+    font-family: 'Space Mono', monospace;
+    background: $boac_1;
+    color: $color_2;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+$color:#FCB72B;
